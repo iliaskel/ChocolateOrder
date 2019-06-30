@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Chocolate</string>
+
+
+    <string name="table_order_fragment_add_order_item_string">Προσθήκη</string>
+    <string name="table_order_fragment_pay_order_string">Πληρωμή</string>
+
+
+    <string name="table_order_fragment_sum_price">Σύνολο:   </string>
+
+
+    <string name="comment_fragment_comment_hint">Σχόλιο…</string>
+    <string name="comment_fragment_add_to_basket_btn">Προσθηκη</string>
+    <string name="comment_fragment_cancel_btn">Άκυρο</string>
+
+    <string name="sugar_fragment_no_sugar">Σκέτος</string>
+    <string name="sugar_fragment_medium_sugar">Μέτριος</string>
+    <string name="sugar_fragment_sweet_sugar">Γλυκός</string>
+    <string name="sugar_fragment_saccharin">Ζαχαρίνη</string>
+    <string name="sugar_fragment_brown_sugar">Καστανή</string>
+    <string name="sugar_fragment_decaffeine">Decaffeine</string>
+    <string name="sugar_fragment_milk">Γάλα</string>
+    <string name="sugar_fragment_sugar_label">Ζάχαρη</string>
+    <string name="sugar_fragment_extras_label">Extras</string>
+
+    <string name="spirits_fragment_extras_label">Extras</string>
+    <string name="spirit_add_ons_fragment_lemonade">Λεμονάδα</string>
+    <string name="spirit_add_ons_fragment_coca_cola">Coca-cola</string>
+    <string name="spirit_add_ons_fragment_orange">Πορτοκαλάδα</string>
+    <string name="spirit_add_ons_fragment_ice">Πάγος</string>
+    <string name="spirit_add_ons_fragment_tonic">Tonic</string>
+
+
+    <string name="ice_cream_flavours_label">Γεύσεις</string>
+    <string name="milkshake_fragment_flavour_vanilla">Βανίλια</string>
+    <string name="milkshake_fragment_flavour_strawberry">Φράουλα</string>
+    <string name="milkshake_fragment_flavour_sig">Σύκο</string>
+    <string name="milkshake_fragment_flavour_caramel">Καραμέλα</string>
+    <string name="milkshake_fragment_flavour_cookies">Cookies</string>
+    <string name="milkshake_fragment_flavour_kaimaki">Καϊμάκι</string>
+    <string name="milkshake_fragment_flavour_bubblegum">Τσιχλόφουσκα</string>
+    <string name="milkshake_fragment_flavour_black_forrest">Black Forrest</string>
+    <string name="milkshake_fragment_flavour_stracciatella">Στρατσιατέλα</string>
+    <string name="milkshake_fragment_flavour_parfe">Παρφέ</string>
+    <string name="milkshake_fragment_flavour_banana">Μπανάνα</string>
+    <string name="milkshake_fragment_flavour_pistachio">Φυστίκι</string>
+    <string name="milkshake_fragment_flavour_cheesecake">Cheesecake</string>
+    <string name="milkshake_fragment_flavour_melon">Πεπόνι</string>
+    <string name="milkshake_fragment_flavour_lemon">Λεμόνι</string>
+    <string name="milkshake_fragment_flavour_chocolate">Σοκολάτα</string>
+    <string name="minus_sign">-</string>
+    <string name="zero_value">0</string>
+    <string name="increment_sign">+</string>
+    <string name="basket_items_fragment_print">Εκτύπωση</string>
+    <string name="table_order_fragment_basket">Καλάθι</string>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/spirits_fragment_product_name_label_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/sugar_fragment_extras_label"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/spirits_fragment_lemonade_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/spirit_add_ons_fragment_lemonade"
+        android:textColorLink="#6F6E6E"
+        app:layout_constraintBottom_toTopOf="@+id/spirits_fragment_coca_cola_cb"
+        app:layout_constraintEnd_toEndOf="@+id/spirits_fragment_product_name_label_tv"
+        app:layout_constraintStart_toStartOf="@+id/spirits_fragment_product_name_label_tv" />
+
+    <CheckBox
+        android:id="@+id/spirits_fragment_coca_cola_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/spirit_add_ons_fragment_coca_cola"
+        android:textColorLink="#6F6E6E"
+        app:layout_constraintBottom_toTopOf="@+id/spirits_fragment_orange_cb"
+        app:layout_constraintStart_toStartOf="@+id/spirits_fragment_lemonade_cb" />
+
+    <CheckBox
+        android:id="@+id/spirits_fragment_orange_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/spirit_add_ons_fragment_orange"
+        android:textColorLink="#6F6E6E"
+        app:layout_constraintBottom_toTopOf="@+id/spirits_fragment_tonic_cb"
+        app:layout_constraintStart_toStartOf="@+id/spirits_fragment_coca_cola_cb" />
+
+    <CheckBox
+        android:id="@+id/spirits_fragment_tonic_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="@string/spirit_add_ons_fragment_tonic"
+        android:textColorLink="#6F6E6E"
+        app:layout_constraintBottom_toTopOf="@+id/spirits_fragment_ice_cb"
+        app:layout_constraintStart_toStartOf="@+id/spirits_fragment_orange_cb" />
+
+    <CheckBox
+        android:id="@+id/spirits_fragment_ice_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="@string/spirit_add_ons_fragment_ice"
+        android:textColorLink="#6F6E6E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/spirits_fragment_tonic_cb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
